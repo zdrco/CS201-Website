@@ -1,0 +1,121 @@
+body {
+    background-color: hsl(0, 0%, 15%);
+}
+
+.headline-sm {
+  margin-top: 1em;
+}
+
+.contact {
+  background-color: hsl(0, 0%, 15%);
+  padding-block-start: calc(60px + 60px);
+}
+
+.contact .container {
+  display: grid;
+  gap: 48px;
+}
+
+.contact-form {
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+  box-shadow: rgba(240, 46, 46, 0.4) -5px 5px, rgba(240, 46, 46, 0.3)-10px 10px, rgba(240, 46, 46, 0.2) -15px 15px, rgba(240, 46, 46, 0.1) -20px 20px, rgba(240, 46, 46, 0.05) -25px 25px;
+}
+
+.contact-text { 
+  margin-block: 5px 30px; 
+}
+
+.contact .label { 
+  margin-block-end: 8px; 
+}
+
+.input-field {
+  padding: 10px 12px;
+  border: 1px solid hsl(0, 0%, 15%);
+  margin-block-end: 20px;
+  outline: none;
+  transition: box-shadow 0.25s ease;
+}
+
+.input-field:focus { 
+  box-shadow: inset 0 0 0 1px hsl(0, 0%, 15%); 
+}
+
+.text-message {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  max-height: 150px;
+}
+
+
+.contact-list .contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.contact-list .contact-item:not(:last-child) { 
+  margin-block-end: 35px; 
+}
+
+.contact-list .item-icon {
+  color: hsl(0, 0%, 15%);
+  width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.contact-list .item-icon ion-icon { 
+  font-size: 2.5rem; 
+}
+
+.contact .label-lg {
+  color: vhsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-block-end: 5px;
+}
+
+.contact .body-lg {
+  color: hsl(0, 0%, 100%);
+  word-break: break-all;
+}
+
+
+@media (min-width: 768px) {
+
+  .contact-form { 
+    padding: 35px; 
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .contact .container {
+    grid-template-columns: 1fr 0.9fr;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-content {
+    width: 70%;
+    margin-inline: auto;
+  }
+
+}

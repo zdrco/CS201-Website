@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tekken 8</title>
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <!--- material icon font -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <!--- css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+
+   <!--- HEADER -->
+
+  <header class="header content-header">
+    <div class="container">
+      <a href="home.html" class="logo">
+        <img src="images/tekken-logo.png" id="logotekken">
+      </a>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="home.html" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="content.html" class="navbar-link">What's New</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="contact.html" class="btn">
+        <span class="span">Contact Us</span>
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!--- CONTACT -->
+
+      <section class="section contact has-bg-image">
+        <div class="container">
+          <form action="" class="contact-form">
+
+            <h2 class="headline-sm" id="contact-label">Get in touch</h2>
+            <p class="contact-text body-md">Are you ready for the next battle?</p>
+
+            <div class="wrapper">
+              <div>
+                <label for="name" class="label">First name</label>
+                <input type="text" name="name" id="name" placeholder="Name *" required class="input-field">
+              </div>
+
+              <div>
+                <label for="email" class="label">Your Email </label>
+                <input type="email" name="email" id="email" placeholder="Email *" required class="input-field">
+              </div>
+
+            </div>
+
+            <div class="text-message">
+                <label for="message" class="label">Your message</label>
+                <textarea name="message" id="message" placeholder="Your message *" required class="input-field"></textarea>
+            </div>
+
+            <a href="#" class="btn btn-tertiary">Send Message</a>
+
+          </form>
+
+          <div class="contact-content">
+            <ul class="contact-list">
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(1, 91%, 37%)">
+                  <span class="material-symbols-rounded">call</span>
+                </div>
+
+                <div>
+                  <p class="label-lg">Phone</p>
+                  <a href="tel:+9876543210" class="body-lg">+98 765 432 10</a>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon" style="background-color: hsl(1, 91%, 37%)">
+                    <span class="material-symbols-rounded">mail</span>
+                </div>
+
+                <div>
+                  <p class="label-lg">Mail</p>
+
+                  <a href="mailto:tekken8@fanpage.com" class="body-lg">tekken8@fanpage.com</a>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(1, 91%, 37%)">
+                  <<span class="material-symbols-rounded">location_on</span>
+                </div>
+
+                <div>
+                  <p class="label-lg">Visit My Studio</p>
+
+                  <p class="body-lg">Cebu Institute of Technology-University</p>
+                </div>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+  </main>
+</body>
+</html>
+
+
+
+
+
+
