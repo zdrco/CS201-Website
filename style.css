@@ -6,19 +6,25 @@
   box-sizing: border-box;
 }
 
-li { list-style: none; }
+li { 
+  list-style: none; 
+}
 
 a,
 img,
 span,
-button { display: block; }
+button { 
+  display: block; 
+}
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
-img { height: auto; }
+img { 
+  height: auto; 
+}
 
 button {
   background: none;
@@ -92,7 +98,7 @@ body {
 }
 
 .section-subtitle.\:dark::before { 
-  background-image: url('/images/text-bars-light.png');
+  background-image: url('images/text-bars-light.png');
 }
 
 .section-subtitle.\:light { 
@@ -116,7 +122,9 @@ body {
   text-transform: uppercase;
 }
 
-.display-1 { font-size: 3.5rem; }
+.display-1 { 
+  font-size: 3.5rem; 
+}
 
 .h1 {
   color:  hsl(0, 0%, 100%);
@@ -132,9 +140,13 @@ body {
   line-height: 1.2;
 }
 
-.h2 { font-size: 2.4rem; }
+.h2 { 
+  font-size: 2.4rem; 
+}
 
-.h3 { font-size: 1.8rem; }
+.h3 { 
+  font-size: 1.8rem; 
+}
 
 .btn {
   background-color: hsl(1, 91%, 37%);
