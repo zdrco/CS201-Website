@@ -375,7 +375,7 @@ body {
 }
 
 .content .btn { 
-  margin-inline: auto; 
+  margin: auto;
 }
 
 /* ---- OVERVIEW ---- */
@@ -809,6 +809,10 @@ body {
     visibility: visible;
   }
 
+  .content .learn-more {
+    position: relative;
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -928,6 +932,10 @@ body {
     left: -55%;
     margin-block-start: -30%;
     width: 210%;
+  }
+
+  .content .learn-more {
+    position: relative;
   }
 
   /* ---- OVERVIEW ---- */
@@ -1081,6 +1089,9 @@ body {
     top: -15%;
   }
 
+  .content .learn-more {
+    position: relative;
+  }
   /* ---- CHARACTER ---- */
 
   .character-card .card-btn {
