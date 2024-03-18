@@ -91,6 +91,25 @@ textarea {
 }
 
 
+@media (min-width: 360px){
+  .logo #logotekken {
+    margin-left: -4em;
+  }
+}
+
+@media (min-width: 375px){
+  .logo #logotekken {
+    margin-left: -3.5em;
+  }
+}
+
+@media (min-width: 414px){
+  .logo #logotekken {
+    margin-left: -2em;
+  }
+}
+
+
 @media (min-width: 768px) {
 
   .contact-form { 
